@@ -38,18 +38,15 @@ body {
              <div class="row">
              <div class="col-md-6">
               <!-- images thumbnail gallery -->
-              
-            @if($products->image)
-              <div class="show" href="{{ asset('uploads/images/'.$products->image) }}">
+              @if($products->image)
+                <div class="show" href="{{ asset('uploads/images/'.$products->image) }}">
                   <img id="show-img"  src="{{ asset('uploads/images/'.$products->image) }}"  >
-              </div>
-            @else
-              <div class="show" href="{{ asset('uploads/images/'.$images->first()->image) }}">
+                </div>
+              @else
+                <div class="show" href="{{ asset('uploads/images/'.$images->first()->image) }}">
                   <img id="show-img"  src="{{ asset('uploads/images/'.$images->first()->image) }}"  >
-              </div>
-            @endif
-
-               
+                </div>
+              @endif
                <div class="small-img">
                   <img src="{{ asset('frontend/images/online_icon_right@2x.png')}}" class="icon-left" alt="" id="prev-img">
                   <div class="small-container">
@@ -226,7 +223,7 @@ body {
                      <div class="product-box">
                         <div class="product-image">
                            <div class="inner">
-                             @if(!empty($promotion->image))
+                             @if(!empty($related_product->image))
                                   <a href="{{url('product/details/' .$related_product->id)}}"><img src="{{ asset('uploads/images/'.$related_product->image) }}" class="img-responsive"></a>
                                  @else
                                  <a href="{{url('product/details/' .$related_product->id)}}"><img src="{{ asset('uploads/images/'.$related_product->images->first()->image) }}" class="img-responsive" /></a>

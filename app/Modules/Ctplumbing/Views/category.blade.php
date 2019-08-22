@@ -9,18 +9,19 @@ Shop | CT Plumbing
                   <div class="col-xs-12 col-sm-12 col-md-3">
                     <div  class="product-categories-wrap">
                         <h2 class="product-title">Product categories</h2>
+                        <?php //print_r($categories);exit;?>
                         @if(!empty($categories))
                         @foreach($categories as $cat)
                         <ul class="product-categories">
                            <!-- Collapse first lavel -->
                          <?php $category = new App\Modules\Category\Models\Category ?>
-                         
+
                           @php  $productsexist=  $category::countProduct($cat->link)  @endphp
                           @if(!empty($productsexist))
                           <li class="cat-item"><a href="{{ url($cat->link) }}">{{ $cat->label }} <span class="product-count">( {{ $category::countProduct($cat->link)}} )</span></a></li>
                           @endif
                          </ul>
-                        @endforeach  
+                        @endforeach
                         @endif
                     </div>
                   </div>
@@ -36,34 +37,34 @@ Shop | CT Plumbing
                           <p>Showing all results</p>
                         </div>
                       </div>
-                       <div class="col-md-6 col-sm-6 col-xs-12">  
+                       <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="product-order pull-right">
-                         
+
                               <select name="orderby" class="orderby" onchange="location = this.value;">
                                       <option value="menu_order" selected="selected">Default sorting</option>
                                       <!-- <option value="">Sort by popularity</option>
                                       <option value="">Sort by average rating</option> -->
-                                     
+
                                       <option value="{{ route('category.list', ['slug'=>$slug, 'sortby'=>'latest']) }}">Sort by newness</option>
                                       <option value="{{ route('category.list', ['slug'=>$slug, 'sortby'=>'lowPrice']) }}">Sort by price: low to high</option>
                                       <option value="{{ route('category.list', ['slug'=>$slug, 'sortby'=>'highPrice']) }}">Sort by price: high to low</option>
                                   </select>
-                         
-                        </div>
-                      </div>  
 
-         
+                        </div>
+                      </div>
+
+
                       <!-- product-wrapper-shop -->
                       <div class="product-wrapper-shop">
                            @if(!empty($products))
                             @foreach($products as $product)
-                          
+
                               <div class="col-md-3 col-sm-6 col-xs-12">
                                  <div class="product-box">
                                     <div class="product-image">
                                        <div class="inner">
                                        @if($product->image)
-                                      <a href="{{url('product/details/' .$product->id)}}"><img src="{{ asset('uploads/images/'.$product->image) }}" class="img-responsive"></a>                              
+                                      <a href="{{url('product/details/' .$product->id)}}"><img src="{{ asset('uploads/images/'.$product->image) }}" class="img-responsive"></a>
                                       @else
                                        <a href="{{url('product/details/' .$product->id)}}"><img src="{{ asset('uploads/images/'.$product->images->first()->image) }}" class="img-responsive"></a>
                                       @endif
@@ -94,7 +95,7 @@ Shop | CT Plumbing
                             @endif
                               </div>
                            </div>
-                    
+
                     <!-- next row -->
                     <!-- pagination -->
                      <div class="page-nation">
@@ -103,32 +104,32 @@ Shop | CT Plumbing
                         </ul>
                     </div>
                     <!-- /.pagination -->
-                    </div>                   
+                    </div>
                </div>
             </div>
-         </div><!-- /. shop page -->                
+         </div><!-- /. shop page -->
 
             <!-- section our-features -->
          <section class="features-wrapper">
             <div class="container mt-0">
                <div class="row">
                   <div class="col-sm-3 text-center">
-                     <img src="/frontend/images/free-delivery.png"  class=""  >     
+                     <img src="/frontend/images/free-delivery.png"  class=""  >
                      <h3> Free Delivery</h3>
                      <p>Free delivery on all orders in excess of £100</p>
                   </div>
                   <div class="col-sm-3 text-center">
-                     <img src="/frontend/images/free-return.png"  class=""  > 
+                     <img src="/frontend/images/free-return.png"  class=""  >
                      <h3> Free Returns</h3>
                      <p>Return for free within 30 days</p>
                   </div>
                   <div class="col-sm-3 text-center">
-                     <img src="/frontend/images/secured.png"  class=""  > 
+                     <img src="/frontend/images/secured.png"  class=""  >
                      <h3> Secured Shopping</h3>
                      <p>We use the best security features to protect your information.</p>
                   </div>
                   <div class="col-sm-3 text-center">
-                     <img src="/frontend/images/unlimited.png"  class=""  > 
+                     <img src="/frontend/images/unlimited.png"  class=""  >
                      <h3> Unlimited Product</h3>
                      <p>While you are here, why not browse our selection of product. Take time to visit our site thoroughly.</p>
                   </div>
@@ -144,7 +145,7 @@ Shop | CT Plumbing
                      <div class="partner owl-carousel">
                         <div class="item">
                            <a href="#"><img src="/frontend/images/partner1.png" alt="brand" />
-                           </a>                     
+                           </a>
                         </div>
                         <div class="item">
                            <a href="#"><img src="/frontend/images/partner2.png" alt="brand" />
@@ -167,8 +168,8 @@ Shop | CT Plumbing
                </div>
             </div>
          </section>
-         <!-- /.partner-brand-section--> 
-      
+         <!-- /.partner-brand-section-->
+
       </div>
       <section id="footer-menu" class="footer-menu">
          <div class="container">
@@ -185,7 +186,7 @@ Shop | CT Plumbing
                   </div>
                </div>
       <!-- page-wrapper -->
-       <!-- footer-section --> 
+       <!-- footer-section -->
 <script type="text/javascript">
 function handleSelect(elm)
 {

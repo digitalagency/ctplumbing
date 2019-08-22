@@ -81,7 +81,7 @@
          <!--/. promotion wrapper -->
          <!-- latest products -->
 
-            <div class="special-offer">
+        <div class="special-offer">
             <div class="container">
                <div class="header-title text-center">
                   <h2>
@@ -136,7 +136,7 @@
                   </div>
                </div>
             </div>
-         </div>
+        </div>
 
 
          <!-- /.latest product -->
@@ -157,10 +157,10 @@
                      <div class="product-box">
                         <div class="product-image">
                            <div class="inner">
-                           @if(!empty($product->image))
-                              <a href="{{url('product/details/' .$product->id)}}"><img src="{{ asset('uploads/images/'.$product->image) }}" class="img-responsive"></a>
+                           @if(!empty($topcategory->image))
+                              <a href="{{url('product/details/' .$topcategory->id)}}"><img src="{{ asset('uploads/images/'.$topcategory->image) }}" class="img-responsive"></a>
                              @else
-                             <a href="{{url('product/details/' .$topcategory->id)}}"><img src="{{ asset('uploads/images/'.$topcategory->image) }}" class="img-responsive"></a>
+                             <a href="{{url('product/details/' .$topcategory->id)}}"><img src="{{ asset('uploads/images/'.$topcategory->images->first()->image) }}" class="img-responsive"></a>
                            @endif
 
                            </div>

@@ -20,7 +20,6 @@
       <!--<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">-->
 
       <link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}">
-      <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
       <script src="https://unpkg.com/vue"></script>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
@@ -78,7 +77,8 @@
                              <li class="dropdown">
                                 <a href="{{ url('cart') }}"  >
 
-                                <i class="fa fa-shopping-cart"></i><span class="badge">£. {{ Cart::total()}} {{ Cart::content()->count()}} Items</span>
+                                <span class="icart"><i class="fa fa-shopping-cart"></i></span>
+                                <span class="badge">£. {{ Cart::total()}} {{ Cart::content()->count()}} Items</span>
                                 </a>
                              </li>
                              <!-- /.dropdown cart -->
@@ -113,7 +113,8 @@
                                  <li class="dropdown">
                                     <a href="{{ url('cart') }}"  >
 
-                                    <i class="fa fa-shopping-cart"></i><span class="badge">{{ Cart::total()}} {{ Cart::content()->count()}} Items</span>
+                                    <span class="icart"><i class="fa fa-shopping-cart"></i></span>
+                                    <span class="badge">{{ Cart::total()}} {{ Cart::content()->count()}} Items</span>
                                     </a>
                                  </li>
                                  <!-- /.dropdown cart -->
@@ -124,7 +125,7 @@
                         </div>
                      </div>
 
-                     <div class="col-xs-12 col-sm-4">
+                     <div class="col-xs-12 col-sm-6">
                        <div class="search-bar">
                        <form action="{{ route('search') }}" method="GET">
                            <div class="input-group ">
@@ -142,8 +143,8 @@
 
                      </div>
 
-                     {{--<div class="col-xs-12 col-sm-3">
-                        <div class="callus-wrapper hidden-xs">
+                     <div class="col-xs-12 col-sm-2">
+                        <?php /*<div class="callus-wrapper hidden-xs">
                            <div class="shop-cart hidden-xs">
                               <ul class="navbar-right">
                                  <!-- dropdown cart -->
@@ -157,8 +158,8 @@
                               </ul>
                               <!--end navbar-right -->
                            </div>
-                        </div>
-                     </div>--}}
+                        </div> */?>
+                     </div>
                   </div>
                </div>
                <!--  /.main-header -->

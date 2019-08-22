@@ -46,7 +46,7 @@ class CtplumbingController extends Controller
     {
         $products = $this->product->orderBy('id', 'desc')->take(4)->get();
 
-        $topcategpries = $this->product->orderBy('id', 'desc')->get();
+        $topcategpries = $this->product->orderBy('id', 'desc')->take(12)->get();
 
 
         $sliders = Slider::orderBy('id', 'desc')->take(3)->get();
