@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.99 44.645">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f89421;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #d65a07;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="heavy_industry" transform="translate(-4 -8)">
+    <rect id="Rectangle-2" class="cls-1" width="40.492" height="26.995" rx="4" transform="translate(17.497 8)"/>
+    <path id="Rectangle-2-Copy" class="cls-1" d="M4,0H36.492a4,4,0,0,1,4,4V22.995a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0Z" transform="translate(4 25.65)"/>
+    <path id="Rectangle" class="cls-2" d="M0,0H40.492V6.23H0Z" transform="translate(17.497 14.23)"/>
+    <path id="Combined-Shape" class="cls-3" d="M22.373,39.6a5.676,5.676,0,0,1-2.893.783A5.2,5.2,0,1,1,19.48,30a5.676,5.676,0,0,1,2.893.783,6.112,6.112,0,0,0,0,8.817Zm5.874.783a5.2,5.2,0,1,1,5.48-5.191A5.341,5.341,0,0,1,28.247,40.383Z" transform="translate(0.383 0.842)"/>
+    <path id="Combined-Shape-2" data-name="Combined-Shape" class="cls-3" d="M16.153,47.077H12V45h4.153Zm6.23,0H18.23V45h4.153Zm8.306,0H26.536V45h4.153Zm6.23,0H32.765V45h4.153Z" transform="translate(0.306 1.416)"/>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+<h1>Successfully Registerd! Please check your email for link and verification</h1>

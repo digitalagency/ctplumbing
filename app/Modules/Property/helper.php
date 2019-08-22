@@ -1,0 +1,5 @@
+<?php
+
+/**
+ *	Property Helper  
+ */

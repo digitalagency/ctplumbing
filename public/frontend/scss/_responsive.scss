@@ -1,0 +1,263 @@
+/* Portrait tablets and small desktops */
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 15px;
+    }
+}
+/* Portrait tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+   
+    
+}
+/* Portrait tablets and small desktops */
+
+@media (max-width: 991px) {
+    html {
+        font-size: 80%;
+    }
+    
+
+
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 568px) {
+  
+}
+/* Landscape phones and portrait tablets */
+@media only screen and (max-width: 768px) {
+
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .navbar-header .collapse, .navbar-toggle {
+    display:block !important;
+  }
+  .navbar-header {
+    float: none;
+  }
+     
+  .navbar-toggle .icon-bar {
+    border: 1px solid #fff;
+}  
+.navbar-toggle{
+    top: 26px;
+    z-index: 9999;
+}
+
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 70%;
+    }
+   
+  .navbar-toggle .icon-bar {
+    border: 1px solid #fff;
+}  
+.navbar-toggle{
+    top: 26px;
+    z-index: 9999;
+}
+
+   
+
+    
+}
+@media (max-width:600px) {
+    
+   
+
+
+    .banner-wrapper .main-banner{
+    width: 100%;
+    float: left;
+    margin-left:0;
+}
+  
+ .header-wrapper #header .main-header{ 
+    height: auto;
+    line-height: 0;
+
+}   
+ .header-wrapper #header .main-header .callus-wrapper {
+    text-align: left;
+    float: left;
+}
+.header-wrapper #header .main-header .search-bar {
+    float: left;
+    margin: 20px 0 10px 0;
+}  
+    
+ .navbar-right{ float:left;}
+.special-offer img{ margin: 0 auto;}    
+
+.product-price .pull-right{ float:left !important;}
+.navbar-brand>img {
+    display: block;
+    max-width: 50%;
+  text-align: right;
+}
+i.fa.fa-shopping-cart{ margin-top:20px;}
+.slide-caption-title { font-size:45px !important;}
+.slide-caption-desc{ font-size:45px !important;}
+.owl-nome .item{
+  
+      height: 50vh !important;
+  
+}
+.shop-btn{
+    margin-top:0 !important;;
+    padding: 8px 15px !important;
+
+}
+.promotion-box{
+    margin-bottom:10px;
+}
+ .discount-btn{
+    width: 145px !important;;
+    height: 35px !important;;
+   }
+   .product-promotion a{}
+   .discount-btn span.pull-right{font-size: 12px !important; }
+   .discount-btn span.pull-left{font-size: 18px !important;}
+   .promotion-wrapper{ padding:30px 0 !important; }
+   .special-offer{ padding:30px 0 !important; }
+   .newproducts-wrapper{ padding:30px 0 !important; }
+   .special-offer{ padding:30px 0 !important; }
+   .features-wrapper{ padding:30px 0 !important; }
+   .header-title h2{font-size: 18px; margin-bottom:30px;}
+   .testimonial-wrapper{
+    .header-title{margin-top:60px !important;}
+    .deals-image-wrapper h2{font-size: 30px !important;}
+   }
+   .newproducts-wrapper img{margin: 0 auto;}
+   .features-wrapper h3{font-size: 18px !important;}
+   .product-price .pull-right{float: none !important;}
+   .social-icon-top{float:none none !important; text-align: center;}
+   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus
+{
+
+    background:none !important;
+}
+.footer-wrapper{
+    .pull-right {
+    float: none !important;
+        }
+
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{color:#fff !important;}
+ul.dropdown-menu.dropdown-cart {
+    left: -210px !important;
+    z-index: 999999 !important;
+}
+ul.dropdown-cart li .item-left span.item-info span{display: inline-block !important;}
+ul.dropdown-cart li .item-left span.item-info{margin-top: 24px;}
+}
+/* Landscape phones and smaller */
+
+@media (max-width: 480px) {
+    html {
+        font-size: 60%;
+    }      
+    
+
+    .banner-wrapper .main-banner{
+    width: 100%;
+    float: left;
+    margin-left:0;
+}
+    .banner-wrapper .product-slider {
+    width:100%;
+    float: left;
+    margin-left:0;
+   
+}
+ .header-wrapper #header .main-header{ 
+    height: auto;
+    line-height: 0;
+
+}   
+ .header-wrapper #header .main-header .callus-wrapper {
+    text-align: left;
+    float: left;
+}
+.header-wrapper #header .main-header .search-bar {
+    float: left;
+
+}  
+
+    
+    
+}
+@media (max-width: 320px) {
+    html {
+        font-size: 50%;
+    }
+  
+
+    .banner-wrapper .main-banner{
+    width: 100%;
+    float: left;
+    margin-left:0;
+}
+    .banner-wrapper .product-slider {
+    width:100%;
+    float: left;
+    margin-left:0;
+   
+}
+ .header-wrapper #header .main-header{ 
+    height: auto;
+    line-height: 0;
+
+}   
+ .header-wrapper #header .main-header .callus-wrapper {
+    text-align: left;
+    float: left;
+}
+.header-wrapper #header .main-header .search-bar {
+    float: left;
+  
+}  
+
+    
+  
+}
+
+@media (max-width:768px) {
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block !important;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+   
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+ 
+
+}

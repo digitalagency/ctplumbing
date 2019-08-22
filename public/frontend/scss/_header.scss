@@ -1,0 +1,328 @@
+/*================================
+ Header
+=================================*/
+
+/*************************
+*******Social ******
+**************************/
+.top-bar{
+    background:$top-bar;
+/*    line-height: 40px;*/
+    height:40px;
+    padding-top: 10px;
+    
+     font-size: 11px;
+     color:#fff;
+  
+
+    .login{ 
+    color: #fff !important;
+    padding: 4px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    display: inline-block;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+
+
+      a{color:$white;}  
+      &:hover {
+       color: $white;  
+        }
+    }
+
+
+}
+
+.social-wrapper .social-contact-top a{
+   
+    font-size:13px;
+    color:$base-color;
+    float:right;
+
+  
+}
+.social-wrapper .social-contact-top a:hover{
+    color:$white;
+}
+.social-wrapper .social-contact-top a i{
+    padding-right:10px;
+}
+.social-wrapper .social-contact-top{
+     float:left;
+    font-size:13px;
+}
+.social-wrapper .social-contact-top a{
+    color:#fff;
+    margin-right:20px;
+}
+
+.social-wrapper .social-contact-top a i{
+    padding-right:5px;
+}
+.social-icon-top{ float:right;
+    font-size: 11px;
+
+    a{color:$base-color;}
+     &:hover {color: $primary-color;}
+     i.fa{padding:0 7px;}
+     i.fa:hover {
+    color: $primary-color;
+}
+
+}
+.header-wrapper{position: relative;
+    #header{color:$white;
+        .header-top {
+        height:38px;
+        line-height: 38px;
+        border-bottom: 1px solid $top-bar-border;
+        background:$primary-color;
+        font-size: 0.7857em;
+        color:$white;
+        .header-left{}
+        .header-right{ float:right;} 
+        .top-menu li {
+        font-size: 12px;
+        display: inline-block;
+        padding: 0 10px;
+        color:#52aee0; 
+
+        }
+        .top-menu li a{
+            color:#52aee0;
+            text-transform: uppercase;
+            &:hover,
+            &:focus,
+            &:active {
+            color:$secondary-color;
+           
+
+            }
+        }
+
+        }
+        .main-header{
+            height:145px;
+            /*line-height: 130px;*/
+            background: $white;
+            padding-top: 20px;
+
+        
+        .search-bar {
+          max-width: 390px;
+          float:left;
+          padding-top:50px;
+         .input-group .form-control{ float:none;}
+         .dropdown-toggle{ background: #f3f3f3 !important; color:#858585 !important ;}
+         .btn-default{ background: $secondary-color; color:#fff;height: 38px;}
+         .form-control{  height: 40px;}
+         .input-group-btn{font-size: 2px;}
+         .dropdown-menu{top: 80px;}
+         .dropdown-menu>li>a{ color:#000 !important;}
+         ul li{ padding-left:0;}
+        }
+
+          .callus-wrapper {
+             text-align:right;
+             float:right;
+             padding-top:42px; 
+            .header-contact{
+            margin: 5px 0;
+            display: inline-block;
+            vertical-align: middle;
+            white-space: nowrap;
+            border-right: 1px solid #0e95d9;
+            padding-right: 35px;
+            margin-right: 20px;
+            line-height: 22px;
+            h2 {
+            margin-top: -2px !important;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+            letter-spacing: 0;
+
+            span{ color:#70c4f0; font-size:16px}
+
+            }   
+        }
+        .shop-cart{ float:right;}
+    }
+ 
+
+
+}
+    }
+
+}
+
+.lighter-text {
+  color: #ABB0BE;
+}
+
+.main-color-text {
+  color: $main-color;
+}
+
+
+  i.fa.fa-shopping-cart { color:$base-color; font-size: 24px;}
+
+
+.badge {
+    background-color:$secondary-color;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.shopping-cart {
+  margin: 20px 0;
+  float: right;
+  background: white;
+  width: 320px;
+  position: relative;
+  border-radius: 3px;
+  padding: 20px;
+  
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+    
+    .shopping-cart-total {
+      float: right;
+    }
+
+    
+  }
+  
+  .shopping-cart-items {
+    
+    padding-top: 20px;
+
+      li {
+        margin-bottom: 18px;
+      }
+
+    img {
+      float: left;
+      margin-right: 12px;
+    }
+    
+    .item-name {
+      display: block;
+      padding-top: 10px;
+      font-size: 16px;
+    }
+    
+    .item-price {
+      color: $main-color;
+      margin-right: 8px;
+    }
+    
+    .item-quantity {
+      color: $light-text;
+    }
+  }
+   
+}
+
+.shopping-cart:after {
+    bottom: 100%;
+    left: 89%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: white;
+    border-width: 8px;
+    margin-left: -8px;
+}
+
+.cart-icon {
+  color: #515783;
+  font-size: 24px;
+  margin-right: 7px;
+  float: left;
+}
+
+.button {
+  background: $main-color;
+  color:white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 25px 0 15px 0;
+  
+  &:hover {
+    background: lighten($main-color, 3%);
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/*cart dropdown*/
+ul.dropdown-cart{
+    min-width:250px;
+    .btn-danger{
+    background-color:$secondary-color !important;
+    border-color: #d43f3a;
+    }
+}
+ul.dropdown-cart li .item{
+    display:block;
+    padding:3px 10px;
+    margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover{
+    background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+    float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info{
+    float:left;
+}
+ul.dropdown-cart li .item-left span.item-info{
+    margin-left:10px;   
+}
+ul.dropdown-cart li .item-left span.item-info span{
+    display:block;
+    color:$base-color;
+}
+ul.dropdown-cart li .item-right{
+    float:right;
+}
+ul.dropdown-cart li .item-right button{
+    margin-top:14px;
+}

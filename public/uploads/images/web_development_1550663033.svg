@@ -1,0 +1,28 @@
+<svg id="web_development" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70.255 61.824">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d65a07;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #d97c10;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.107" y1="0.802" x2="0.827" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb0"/>
+      <stop offset="1" stop-color="#e59327"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_26" data-name="Path 26" class="cls-1" d="M18.405,38H38.076l1.405,7.025H17Z" transform="translate(6.887 11.178)"/>
+  <path id="Path_27" data-name="Path 27" class="cls-2" d="M23.887,59.2H46.368l1.065,4.26a1.04,1.04,0,0,1-1.056,1.361h-22.5a1.037,1.037,0,0,1-1.056-1.361Zm46.368-11.24a4.21,4.21,0,0,1-4.217,4.214H4.217A4.223,4.223,0,0,1,0,47.964V7.214A4.21,4.21,0,0,1,4.217,3h61.82a4.223,4.223,0,0,1,4.217,4.214Z" transform="translate(0 -3)"/>
+  <path id="Path_28" data-name="Path 28" class="cls-3" d="M64.634,50.558H4.217A4.223,4.223,0,0,1,0,46.344V7.374A2.79,2.79,0,0,1,1.4,7H61.829a2.8,2.8,0,0,1,2.806,2.812Z" transform="translate(0 -1.38)"/>
+</svg>

@@ -1,0 +1,121 @@
+/*For Footer Menu Section*/
+.footer-menu-wrapper{
+
+  .menu-item a{ color:#858282;}
+
+}
+.footer-menu{
+    background:$white;
+    color:#858282;  
+    padding: 60px 0;
+    background:$footer-bg;   
+
+    
+
+}
+/*.menu-item{
+    margin-bottom:20px;
+}*/
+.menu-item h5{
+    font-size:18px;   
+    font-weight:700;
+    text-transform: uppercase;
+    color:$white;
+    margin-bottom:30px;
+}
+.menu-item p{
+    font-size:14px;
+    font-weight:400;
+}
+.menu-item ul li{
+    font-size:14px;      
+    margin-bottom:10px;
+    font-weight: 300;
+}
+
+.menu-item .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 65%;
+    margin-bottom: 0;
+
+}
+.menu-item input[type="text"]{
+    color:$primary-color;
+}
+.menu-item input[type="submit"]{
+    display:inline-block;
+    width:35%;
+    background:$secondary-color;
+    color:#fff;
+    border:0px;
+    text-transform:uppercase;
+}
+.menu-item input[type="submit"]:hover{
+    background-color:$primary-color;
+}
+
+/*For Footer Section*/
+.footer-bottom{
+
+    color:#000;
+    background:$footer-bottom-bg;
+    padding:20px 0;
+    p{font-size: 13px;color:#858282;}
+    .menu-item{float:right;}
+    
+    .menu-item ul li a{color:#929292;padding:0 10px;border-left: 1px solid #ccc;
+
+         &:hover{color:$secondary-color;}
+    }
+    .menu-item ul li a:first-child{border-left:none;}
+
+    
+}
+.footer-wrapper{
+    /*padding:20px 0px;*/
+    display:block;
+}
+.footer-brand{
+  
+    color:#929292;
+    
+}
+
+
+/*scollup icon*/
+
+.scrollup {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    opacity: .3;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    z-index: 10;
+    transition: opacity .5s, background-color .5s;
+    -moz-transition: opacity .5s, background-color .5s;
+    -webkit-transition: opacity .5s, background-color .5s;
+}
+.scrollup:hover {
+    background: $primary-color;
+    opacity: 1;
+}
+.scrollup i {
+    font-size: 13px;
+    position: absolute;
+    opacity: 1;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -6px;
+    text-decoration: none;
+
+}
+

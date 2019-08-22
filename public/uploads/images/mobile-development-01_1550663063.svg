@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.107" y1="0.802" x2="0.827" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb0"/>
+      <stop offset="1" stop-color="#e59327"/>
+    </linearGradient>
+  </defs>
+  <g id="mobile-development-01" transform="translate(-571 -347)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="32" cy="32" r="32" transform="translate(571 347)" fill="#3a4095"/>
+    <g id="mobile_development" transform="translate(592.464 362.764)">
+      <path id="Path_29" data-name="Path 29" d="M9,24.364V2.035A2.039,2.039,0,0,1,11.037,0H27.579a2.041,2.041,0,0,1,2.037,2.038V24.367Z" transform="translate(-9)" fill="#f89421" fill-rule="evenodd"/>
+      <rect id="Rectangle_18" data-name="Rectangle 18" width="18.117" height="21.865" transform="translate(0 2.499)" fill="url(#linear-gradient)"/>
+      <path id="Path_30" data-name="Path 30" d="M9,39H29.616v4.994a1.873,1.873,0,0,1-1.875,1.878H10.875A1.878,1.878,0,0,1,9,43.994Z" transform="translate(-9 -14.636)" fill="#d65a07" fill-rule="evenodd"/>
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="1.562" cy="1.562" r="1.562" transform="translate(8.746 26.238)"/>
+      <circle id="Ellipse_4" data-name="Ellipse 4" cx="1.562" cy="1.562" r="1.562" transform="translate(8.746 26.238)" fill="#f89421"/>
+    </g>
+  </g>
+</svg>

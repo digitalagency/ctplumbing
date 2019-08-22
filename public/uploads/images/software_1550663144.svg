@@ -1,0 +1,25 @@
+<svg id="product_design" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.645 45.645">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #f89421;
+      }
+
+      .cls-3 {
+        fill: #d65a07;
+        fill-rule: evenodd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb0"/>
+      <stop offset="1" stop-color="#e59327"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="30.126" height="30.126" rx="15.063" transform="translate(0 15.519)"/>
+  <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="30.126" height="30.126" rx="3" transform="translate(15.519)"/>
+  <path id="Path_1" data-name="Path 1" class="cls-3" d="M43.474,30.474H19.74A2.735,2.735,0,0,1,17,27.734V4H41.642a1.832,1.832,0,0,1,1.832,1.828V30.474Z" transform="translate(-1.481 -0.348)"/>
+</svg>
