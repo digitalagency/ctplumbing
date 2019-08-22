@@ -1,0 +1,15 @@
+.top-bar .social-wrapper .shop-cart i.fa.fa-shopping-cart { color:#fff; margin-right: 5px}
+
+.header-wrapper #header .main-header {
+    height: auto;
+    background: #fff;
+    padding-top: 0px;
+}
+
+
+
+@media (max-width: 600px){
+.header-wrapper #header .main-header .search-bar {
+    	margin: 0px 0 10px 0;
+	}
+}

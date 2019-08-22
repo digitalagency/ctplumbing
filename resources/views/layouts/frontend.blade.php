@@ -20,6 +20,7 @@
       <!--<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">-->
 
       <link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}">
+      <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
       <script src="https://unpkg.com/vue"></script>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
@@ -141,7 +142,7 @@
 
                      </div>
 
-                     <div class="col-xs-12 col-sm-3">
+                     {{--<div class="col-xs-12 col-sm-3">
                         <div class="callus-wrapper hidden-xs">
                            <div class="shop-cart hidden-xs">
                               <ul class="navbar-right">
@@ -157,7 +158,7 @@
                               <!--end navbar-right -->
                            </div>
                         </div>
-                     </div>
+                     </div>--}}
                   </div>
                </div>
                <!--  /.main-header -->

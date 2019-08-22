@@ -38,14 +38,18 @@ body {
              <div class="row">
              <div class="col-md-6">
               <!-- images thumbnail gallery -->
-              <div class="show" href="images/big-thumb1.jpg">
+              
             @if($products->image)
+              <div class="show" href="{{ asset('uploads/images/'.$products->image) }}">
                   <img id="show-img"  src="{{ asset('uploads/images/'.$products->image) }}"  >
+              </div>
             @else
-                    <img id="show-img"  src="{{ asset('uploads/images/'.$images->first()->image) }}"  >
+              <div class="show" href="{{ asset('uploads/images/'.$images->first()->image) }}">
+                  <img id="show-img"  src="{{ asset('uploads/images/'.$images->first()->image) }}"  >
+              </div>
             @endif
 
-               </div>
+               
                <div class="small-img">
                   <img src="{{ asset('frontend/images/online_icon_right@2x.png')}}" class="icon-left" alt="" id="prev-img">
                   <div class="small-container">

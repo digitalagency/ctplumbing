@@ -30,8 +30,8 @@
             var imageH = self.height();
 
             self.find('img').css({
-                width: '100%',
-                height: '100%'
+                width: '80%',
+                height: '80%'
             });
 
             // 宽放大倍数
