@@ -226,7 +226,12 @@ body {
                      <div class="product-box">
                         <div class="product-image">
                            <div class="inner">
-                           <a href="{{url('product/details/' .$related_product->id)}}"> <img class="img-responsive" src="{{ asset('uploads/images/'.$related_product->image) }}"  /></a>
+                             @if(!empty($promotion->image))
+                                  <a href="{{url('product/details/' .$related_product->id)}}"><img src="{{ asset('uploads/images/'.$related_product->image) }}" class="img-responsive"></a>
+                                 @else
+                                 <a href="{{url('product/details/' .$related_product->id)}}"><img src="{{ asset('uploads/images/'.$related_product->images->first()->image) }}" class="img-responsive" /></a>
+                             @endif
+
                            </div>
                            <div class="tag new">
                               New
@@ -248,7 +253,7 @@ body {
 
                            <div class="rating">
                                  <div class="stars">
-                                 <input id="input-1" name="rate" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="{{ !empty($product->averageRating) ? $product->averageRating : 0 }}" data-size="xs" >
+                                 <input id="input-1" name="rate" class="rating rating-loading" data-min="0" data-max="5" data-step="1" value="" data-size="xs" >
 
                                  </div>
                               </div>
@@ -284,6 +289,7 @@ body {
                 </section>
         <!-- /.partner-brand-section-->
       </div>
+
       <!-- /.page-wrapper -->
       <section id="footer-menu" class="footer-menu">
          <div class="container">
