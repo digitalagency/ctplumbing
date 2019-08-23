@@ -20,6 +20,8 @@
       <!--<link rel="stylesheet" href="{{ asset('frontend/css/style.css') }}">-->
 
       <link rel="stylesheet" href="{{ asset('frontend/css/main.css') }}">
+
+      <link rel="stylesheet" href="{{ asset('frontend/css/custom.css') }}">
       <script src="https://unpkg.com/vue"></script>
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
