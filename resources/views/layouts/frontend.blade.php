@@ -26,9 +26,9 @@
 
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/css/star-rating.min.css" />
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+      <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> -->
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script> -->      
 
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
@@ -270,11 +270,12 @@
       </div>
       <!-- Script -->
       <script src="{{ asset('frontend/js/jquery.js')}}"></script>
+      <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
       <script src="{{ asset('frontend/js/bootstrap.min.js')}}"></script>
       <script src="{{ asset('frontend/js/owl.carousel.min.js')}}"></script>
       <script src="{{ asset('frontend/js/main.js')}}"></script>
       <script src="{{ asset('frontend/loginform/script.js')}}"></script>
-
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.2/js/star-rating.min.js"></script>
 
       <script src="{{ asset('frontend/js/zoom-image.js')}}"></script>
       <script src="{{ asset('frontend/js/main-zoom.js')}}"></script>

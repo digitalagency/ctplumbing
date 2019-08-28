@@ -304,7 +304,7 @@ body {
                </div>
 
                <script>
-Vue.component('star-rating', VueStarRating.default)
+Vue.component('star-rating', VueStarRating.default);
 
 new Vue({
   el: '#app',
@@ -332,9 +332,9 @@ Vue.component('star-rating', VueStarRating.default);
 
 
 </script>
-<script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js"></script>
+<script src="https://unpkg.com/vue-star-rating/dist/star-rating.min.js" ></script>
 
-<script src="https://unpkg.com/vue@2.2.6/dist/vue.js"></script>
+<script src="https://unpkg.com/vue@2.2.6/dist/vue.js" ></script>
 <script src="https://unpkg.com/vue-star-rating@1.6.0/dist/star-rating.min.js"></script>
 
-      @endsection
+@endsection
